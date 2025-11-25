@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Fetch Aseprite release link
         id: aseprite-link
-        uses: a1393323447/fetch-release@main
+        uses: Jason1Jiang/fetch-release@main  
         with:
             group: aseprite
             repo: aseprite
